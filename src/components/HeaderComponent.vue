@@ -62,4 +62,12 @@ import { store } from '../store';
         .nav-item:hover .dropdown-menu {
             display: block;
         }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1030;
+            padding: 0;
+            height: 80px;
+        }
 </style>
