@@ -1,6 +1,6 @@
 <template>
-<header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between container mt-2">
         <a class="navbar-brand ml-auto" href="#">Logo</a>
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav mr-auto">
@@ -62,12 +62,14 @@ import { store } from '../store';
         .nav-item:hover .dropdown-menu {
             display: block;
         }
-        header {
+        header{
             position: fixed;
             top: 0;
+            left: 0;
             width: 100%;
             z-index: 1030;
             padding: 0;
             height: 80px;
+            background-color: white;
         }
 </style>
