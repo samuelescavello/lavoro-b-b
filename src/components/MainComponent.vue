@@ -81,11 +81,11 @@
                                     aria-label="Slide 3"></button>
                             </div>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                <div class="carousel-item ">
                                     <img src="https://149345965.v2.pressablecdn.com/wp-content/uploads/img-hotels-IADGV_006-Dusk-Exterior-home.jpg"
                                         class="d-block w-100" alt="..." />
                                 </div>
-                                <div class="carousel-item">
+                                <div class="carousel-item active">
                                     <img src="https://149345965.v2.pressablecdn.com/wp-content/uploads/img-hotels-IADGV_006-Dusk-Exterior-home.jpg"
                                         class="d-block w-100" alt="..." />
                                 </div>

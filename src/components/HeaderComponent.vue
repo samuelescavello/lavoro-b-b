@@ -4,6 +4,18 @@
         <a class="navbar-brand ml-auto" href="#">Logo</a>
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <div id="border"></div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Servizi<span class="sr-only">(current)</span></a>
+                    <div id="border"></div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Colazione<span class="sr-only">(current)</span></a>
+                    <div id="border"></div>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Link 1
@@ -19,16 +31,6 @@
                         Link 2
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
-                        <a class="dropdown-item" href="#">Action 3</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Link 3
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                         <a class="dropdown-item" href="#">Action 1</a>
                         <a class="dropdown-item" href="#">Action 2</a>
                         <a class="dropdown-item" href="#">Action 3</a>
@@ -71,5 +73,20 @@ import { store } from '../store';
             padding: 0;
             height: 80px;
             background-color: white;
+        }
+        #border {
+            width: 100%;
+            height: 3px;
+            background-color: #60ecff49;
+            display: none;
+            margin-top: -3px;
+        }
+        .active{
+            a{
+                color: rgb(90, 203, 255) !important;
+            }
+        }
+        .nav-item:hover #border {
+            display: block;
         }
 </style>
