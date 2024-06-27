@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Headercomponents />
+    <Maincomponents />
   </div>
   
 </template>
@@ -8,9 +9,11 @@
 <script>
   import { store } from './store';
   import Headercomponents from './components/HeaderComponent.vue';
+  import Maincomponents from './components/MainComponent.vue';
   export default {
     components: {
-      Headercomponents
+      Headercomponents,
+      Maincomponents
     },
     name: 'App',
   }
