@@ -2,7 +2,7 @@
     <div class="container">
       <HeaderComponent />
   </div>
-  <MainComponent />
+  <router-view></router-view>
   <FooterComponet />
 
   
@@ -10,17 +10,20 @@
 </template>
 
 <script>
-  import { store } from './store';
+  import { store } from './store.js';
   import HeaderComponent from './components/HeaderComponent.vue';
-  import MainComponent from './components/MainComponent.vue';
   import FooterComponet from './components/FooterComponent.vue';
   export default {
     components: {
       HeaderComponent,
-      MainComponent,
       FooterComponet
     },
     name: 'App',
+    data() {
+      return {
+        store
+      }
+    }
   }
 </script>
 

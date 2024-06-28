@@ -4,12 +4,12 @@
         <img src="../assets/img/2.png" alt="">
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item ">
+                    <span class="nav-link"><router-link to="/">Home</router-link></span>
                     <div id="border"></div>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Servizi<span class="sr-only">(current)</span></a>
+                    <span class="nav-link"><router-link to="/">Home</router-link></span>
                     <div id="border"></div>
                 </li>
                 <li class="nav-item ">
@@ -86,12 +86,14 @@ import { store } from '../store';
             display: none;
             margin-top: -3px;
         }
-        .active{
-            a{
-                color: rgb(90, 203, 255) !important;
-            }
-        }
         .nav-item:hover #border {
             display: block;
+        }
+        .nav-link{
+           text-decoration: none;
+        }
+        .router-link-active {
+            color: rgb(90, 203, 255) !important;
+            text-decoration: none; 
         }
 </style>

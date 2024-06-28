@@ -92,7 +92,7 @@
 
 <script>
 export default {
-    name: "MainComponent",
+    name: "AppHome",
     data() {
         return {
             cards: [
