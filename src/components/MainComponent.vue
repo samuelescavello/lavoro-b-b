@@ -1,31 +1,27 @@
 <template>
     <main>
-        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/209890188.jpg?k=882e748be3114714efa7f001b6ffa97425b1a52a458d3166dea3c1af7c66ac09&o=&hp=1"
-            alt="" />
+        <div class="jumbo">
+            <img src="../assets/img/piscina4.jpeg" alt="" />
+        </div>
+
         <div class="container">
             <div class="row mb-3">
                 <div class="col-12 text-center mt-5 mb-3">
-                    <h1>Scopri i fantastici malviti</h1>
+                    <h1>B&B - Antica Casina</h1>
                 </div>
 
                 <div class="row my-5">
                     <div class="col-6">
-                        <h2>Cosa visitare...</h2>
-                        <h5>...Malvito!</h5>
+                        <h2>il nostro B&B</h2>
                         <p>
-                            Malvito sorge sulla cima di un poggio alla destra dell' Esaro ed
-                            offre una veduta paesaggistica singolare. Si ritiene sia uno dei
-                            pochi centri calabresi di origine Longobarda, sede di Gastaldato.
-                            Dalla documentazione esistente si può stabilire che Malvito ebbe
-                            origine tra la fine del VII secolo e gli inizi del successivo,
-                            questo grazie al cronista longobardo Paolo Diacono che indica il
-                            centro dell' Esaro come una delle più importanti città dell'Italia
-                            meridionale. Durante il pontificato di Benedetto VII (anno 983), la
-                            chiesa di Malvito fu elevata a diocesi fino a quando, nel 1160, fu
-                            accorpata a quella di San Marco Argentano. Nel 1057 subì conquista
-                            Normanna di Roberto d'Altavilla chiamato il Guiscardo (furbo). Il
-                            primo feudatario fu il conte Roberto detto Scalone, terzogenito del
-                            guiscardo e della principessa Longobarda Sikelgaita.
+                            "Antica casina" si trova a pochi Km dal centro di Malvito , E' il posto ideale per ritrovare
+                            il vero contatto con la natura, lontano dalla confusione.Luogo ideale al relax e alle tante
+                            proposte per il tempo libero che la bella Calabria può offrire.
+                            Situato in una straordinaria posizione panoramica permette di godere di tramonti
+                            indimenticabili.
+                            Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano,
+                            ristrutturato di recente con tutti i comfort.
+                            Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
                         </p>
                     </div>
 
@@ -142,5 +138,16 @@ export default {
 <style lang="scss" scoped>
 main {
     margin-top: 80px;
+
+    .jumbo {
+        height: 600px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
 </style>

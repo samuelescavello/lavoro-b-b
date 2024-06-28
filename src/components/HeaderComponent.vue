@@ -1,7 +1,7 @@
 <template>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between container mt-2">
-        <a class="navbar-brand ml-auto" href="#">Logo</a>
+        <img src="../assets/img/2.png" alt="">
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -60,6 +60,11 @@ import { store } from '../store';
 <style lang="scss" scoped>
      .navbar {
             background-color: white;
+
+            img{
+            width: 50px;
+            height: 50px;
+        }
         }
         .nav-item:hover .dropdown-menu {
             display: block;
