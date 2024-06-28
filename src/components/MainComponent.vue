@@ -10,7 +10,7 @@
                     <h1>B&B - Antica Casina</h1>
                 </div>
 
-                <div class="row my-5">
+                <div class="row my-5 " >
                     <div class="col-6">
                         <h2>il nostro B&B</h2>
                         <p>
@@ -47,7 +47,7 @@
                 </div>
 
 
-                <div class="row my-5">
+                <div class="row my-5 ">
                     <div class="col-6">
                         <div id="container">
                             <div class="row my-5">
@@ -137,6 +137,8 @@ export default {
 <style lang="scss" scoped>
 main {
     margin-top: 80px;
+    background-image: url(../assets/img/sfondo.png);
+        background-size: contain;
 
     .jumbo {
         height: 600px;
