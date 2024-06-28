@@ -31,11 +31,11 @@
                             <div class="row my-5">
                                 <div class="col-6">
                                     <div class="container">
-                                        <img class="image top" src="https://via.placeholder.com/300x300?text=Top+Image"
+                                        <img class="image top" src="../assets/img/casa2.jpeg"
                                             alt="Top Image">
                                         <img class="image bottom"
-                                            src="https://via.placeholder.com/300x300?text=Bottom+Image"
-                                            alt="Bottom Image">
+                                            src="../assets/img/casa1.jpeg"
+                                            alt="b&b image">
                                     </div>
                                 </div>
                             </div>
@@ -53,10 +53,10 @@
                             <div class="row my-5">
                                 <div class="col-6">
                                     <div class="container">
-                                        <img class="image top2" src="https://via.placeholder.com/300x300?text=Top+Image"
+                                        <img class="image top2" src="../assets/img/pratoepiscina.jpeg"
                                             alt="Top Image">
                                         <img class="image bottom2"
-                                            src="https://via.placeholder.com/300x300?text=Bottom+Image"
+                                            src="../assets/img/piscina3.jpeg"
                                             alt="Bottom Image">
                                     </div>
                                 </div>
@@ -65,16 +65,9 @@
                     </div>
 
                     <div class="col-6">
-                        <h2>il nostro B&B</h2>
+                        <h2> comfort</h2>
                         <p>
-                            "Antica casina" si trova a pochi Km dal centro di Malvito , E' il posto ideale per ritrovare
-                            il vero contatto con la natura, lontano dalla confusione.Luogo ideale al relax e alle tante
-                            proposte per il tempo libero che la bella Calabria può offrire.
-                            Situato in una straordinaria posizione panoramica permette di godere di tramonti
-                            indimenticabili.
-                            Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano,
-                            ristrutturato di recente con tutti i comfort.
-                            Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
+                            Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano, ristrutturato di recente con tutti i comfort , incluso di piscina. Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
                         </p>
                     </div>
                 </div>
