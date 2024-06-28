@@ -11,18 +11,21 @@
                 </div>
 
                 <div class="row my-5 " >
-                    <div class="col-6">
-                        <h2>il nostro B&B</h2>
-                        <p>
-                            "Antica casina" si trova a pochi Km dal centro di Malvito , E' il posto ideale per ritrovare
-                            il vero contatto con la natura, lontano dalla confusione.Luogo ideale al relax e alle tante
-                            proposte per il tempo libero che la bella Calabria può offrire.
-                            Situato in una straordinaria posizione panoramica permette di godere di tramonti
-                            indimenticabili.
-                            Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano,
-                            ristrutturato di recente con tutti i comfort.
-                            Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
-                        </p>
+                    <div class="col-6 d-flex align-items-center">
+                        <div>
+                            <h2>il nostro B&B</h2>
+                            <p>
+                                "Antica casina" si trova a pochi Km dal centro di Malvito , E' il posto ideale per ritrovare
+                                il vero contatto con la natura, lontano dalla confusione.Luogo ideale al relax e alle tante
+                                proposte per il tempo libero che la bella Calabria può offrire.
+                                Situato in una straordinaria posizione panoramica permette di godere di tramonti
+                                indimenticabili.
+                                Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano,
+                                ristrutturato di recente con tutti i comfort.
+                                Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
+                            </p>
+                        </div>
+                        
                     </div>
 
                     <div class="col-6 ">
@@ -64,11 +67,13 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
-                        <h2> comfort</h2>
-                        <p>
-                            Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano, ristrutturato di recente con tutti i comfort , incluso di piscina. Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
-                        </p>
+                    <div class="col-6 d-flex align-items-center">
+                        <div>
+                            <h2> comfort</h2>
+                            <p>
+                                Gli ospiti potranno soggiornare in un edificio camere situate al secondo piano, ristrutturato di recente con tutti i comfort , incluso di piscina. Il Bed and Breakfast "Antica casina" è dotato di ampio parcheggio privato.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,9 +135,6 @@ export default {
 <style lang="scss" scoped>
 main {
     margin-top: 80px;
-    background-image: url(../assets/img/sfondo.png);
-        background-size: contain;
-
     .jumbo {
         height: 600px;
         width: 100%;
@@ -146,17 +148,22 @@ main {
 
     #container {
         position: relative;
-        width: 300px;
+        width: 100%;
         /* Imposta la larghezza desiderata per il container */
         height: 300px;
         /* Imposta l'altezza desiderata per il container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Imposta l'altezza e la larghezza desiderata per il container */
     }
 
     .image {
         position: absolute;
-        width: 300px;
-        height: 200px;
+        width: 400px;
+        height: 250px;
         object-fit: cover;
+        border-radius: 10px;
         /* Per mantenere le proporzioni dell'immagine */
     }
 
